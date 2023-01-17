@@ -15,9 +15,11 @@ Exemplo payload de envio:
 {
     "nome":"Leonardo",
     "dataNascimento":"01/01/2001",
-    "enderecos":[
+    "enderecos":
+        [
             {"logradouro":"Rua Ciclano n°3 bairro Fulano","cep":"12345678","numero":3,"cidade":"Teste1"},
-            {"logradouro":"Rua Beutrano n°27 bairro Teste","cep":"87654321","numero":27,"cidade":"Teste2"}]
+            {"logradouro":"Rua Beutrano n°27 bairro Teste","cep":"87654321","numero":27,"cidade":"Teste2"}
+        ]
 } 
 ```
 
