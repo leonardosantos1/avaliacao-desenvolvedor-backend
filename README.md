@@ -5,9 +5,9 @@ Endpoins API:
 
 RequestMapping - /pessoa
 
-**GET** - "/" lista todas as pessoas&nbsp;
-**GET** - "/{id}" tras dados uma pessoa especifica&nbsp;
-**GET** - "/{id}/enderecos" tras os endereços da pessoa do id especificado&nbsp;
+**GET** - "/" lista todas as pessoas </br>
+**GET** - "/{id}" tras dados uma pessoa especifica</br>
+**GET** - "/{id}/enderecos" tras os endereços da pessoa do id especificado</br>
 
 **POST** - "/" realizar a criação de uma pessoa&nbsp;
 Exemplo payload de envio:&nbsp;
@@ -16,8 +16,8 @@ Exemplo payload de envio:&nbsp;
     "nome":"Leonardo",
     "dataNascimento":"01/01/2001",
     "enderecos":[
-      {"logradouro":"Rua Ciclano n°3 bairro Fulano","cep":"12345678","numero":3,"cidade":"Teste1"},
-      {"logradouro":"Rua Beutrano n°27 bairro Teste","cep":"87654321","numero":27,"cidade":"Teste2"}]
+            {"logradouro":"Rua Ciclano n°3 bairro Fulano","cep":"12345678","numero":3,"cidade":"Teste1"},
+            {"logradouro":"Rua Beutrano n°27 bairro Teste","cep":"87654321","numero":27,"cidade":"Teste2"}]
 } 
 ```
 
