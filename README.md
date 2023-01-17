@@ -1,7 +1,7 @@
 # avaliacao-desenvolvedor-backend
 
 
-Endpoins API:
+Endpoints API:
 
 RequestMapping - /pessoa
 
