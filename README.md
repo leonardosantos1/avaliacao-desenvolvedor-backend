@@ -8,11 +8,11 @@ Endpoints API:
 
 RequestMapping - "/pessoa"
 
-**GET** - "/" lista todas as pessoas </br>
-**GET** - "/{id}" tras dados uma pessoa especifica</br>
-**GET** - "/{id}/enderecos" tras os endereços da pessoa do id especificado</br>
+**GET** - "/" lista todas as pessoas **(Listar pessoas)**</br> 
+**GET** - "/{id}" tras dados uma pessoa especifica **(Consultar uma pessoa**)</br>
+**GET** - "/{id}/enderecos" tras os endereços da pessoa do id especificado **(Listar endereços da pessoa)**</br>
 
-**POST** - "/" realizar a criação de uma pessoa</br>
+**POST** - "/" realizar a criação de uma pessoa **(Criar uma pessoa)**</br>
 Exemplo payload de envio:
 ```bash
 {
@@ -26,7 +26,7 @@ Exemplo payload de envio:
 } 
 ```
 
-**POST** - "/{id}/endereco" realiza a adição de um novo endereço da pessoa passada pelo id</br>
+**POST** - "/{id}/endereco" realiza a adição de um novo endereço da pessoa passada pelo id **(Criar endereço para pessoa)**</br>
 Exemplo payload de envio:&nbsp;
 ```bash
 {
@@ -36,7 +36,7 @@ Exemplo payload de envio:&nbsp;
   "cidade":"Sumiu"
 }
 ```
-**PUT** - "/{id}/enderecoPrincipal" realiza a atualização do endereço principal da pessoa do id fornecido</br>
+**PUT** - "/{id}/enderecoPrincipal" realiza a atualização do endereço principal da pessoa do id fornecido **(Poder informar qual endereço é o principal da pessoa)**</br>
 Exemplo payload de envio:&nbsp;
 ```bash
 {
@@ -44,7 +44,7 @@ Exemplo payload de envio:&nbsp;
   "numero":27
 }
 ```
-**PUT** - "/{id}" realiza a atualização das informações da pessoa fornecida pelo parametro id</br>
+**PUT** - "/{id}" realiza a atualização das informações da pessoa fornecida pelo parametro id **(Editar uma pessoa)**</br>
 Exemplo payload de envio:&nbsp;
 ```bash
 {
