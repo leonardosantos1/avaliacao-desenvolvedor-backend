@@ -1,9 +1,12 @@
 # avaliacao-desenvolvedor-backend
 
+Como rodar a aplicação:
+realizar um clone do repositorio e subir o mesmo em uma IDE de preferencia
+
 
 Endpoints API:
 
-RequestMapping - /pessoa
+RequestMapping - "/pessoa"
 
 **GET** - "/" lista todas as pessoas </br>
 **GET** - "/{id}" tras dados uma pessoa especifica</br>
