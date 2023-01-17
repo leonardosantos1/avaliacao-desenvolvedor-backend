@@ -9,8 +9,8 @@ RequestMapping - /pessoa
 **GET** - "/{id}" tras dados uma pessoa especifica</br>
 **GET** - "/{id}/enderecos" tras os endereços da pessoa do id especificado</br>
 
-**POST** - "/" realizar a criação de uma pessoa&nbsp;
-Exemplo payload de envio:&nbsp;
+**POST** - "/" realizar a criação de uma pessoa</br>
+Exemplo payload de envio:
 ```bash
 {
     "nome":"Leonardo",
@@ -21,7 +21,7 @@ Exemplo payload de envio:&nbsp;
 } 
 ```
 
-**POST** - "/{id}/endereco" realiza a adição de um novo endereço da pessoa passada pelo id&nbsp;
+**POST** - "/{id}/endereco" realiza a adição de um novo endereço da pessoa passada pelo id</br>
 Exemplo payload de envio:&nbsp;
 ```bash
 {
@@ -31,7 +31,7 @@ Exemplo payload de envio:&nbsp;
   "cidade":"Sumiu"
 }
 ```
-**PUT** - "/{id}/enderecoPrincipal" realiza a atualização do endereço principal da pessoa do id fornecido&nbsp;
+**PUT** - "/{id}/enderecoPrincipal" realiza a atualização do endereço principal da pessoa do id fornecido</br>
 Exemplo payload de envio:&nbsp;
 ```bash
 {
@@ -39,7 +39,7 @@ Exemplo payload de envio:&nbsp;
   "numero":27
 }
 ```
-**PUT** - "/{id}" realiza a atualização das informações da pessoa fornecida pelo parametro id&nbsp;
+**PUT** - "/{id}" realiza a atualização das informações da pessoa fornecida pelo parametro id</br>
 Exemplo payload de envio:&nbsp;
 ```bash
 {
