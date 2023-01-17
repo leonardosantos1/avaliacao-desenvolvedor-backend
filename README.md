@@ -5,12 +5,12 @@ Endpoins API:
 
 RequestMapping - /pessoa
 
-GET - "/" lista todas as pessoas
-GET - "/{id}" tras dados uma pessoa especifica
-GET - "/{id}/enderecos" tras os endereços da pessoa do id especificado
+**GET** - "/" lista todas as pessoas&nbsp;
+**GET** - "/{id}" tras dados uma pessoa especifica&nbsp;
+**GET** - "/{id}/enderecos" tras os endereços da pessoa do id especificado&nbsp;
 
-POST - "/" realizar a criação de uma pessoa
-Exemplo payload de envio: 
+**POST** - "/" realizar a criação de uma pessoa&nbsp;
+Exemplo payload de envio:&nbsp;
 {
     "nome":"Leonardo",
     "dataNascimento":"01/01/2001",
@@ -19,8 +19,8 @@ Exemplo payload de envio:
       {"logradouro":"Rua Beutrano n°27 bairro Teste","cep":"87654321","numero":27,"cidade":"Teste2"}]
 } 
 
-POST - "/{id}/endereco" realiza a adição de um novo endereço da pessoa passada pelo id
-Exemplo payload de envio:
+**POST** - "/{id}/endereco" realiza a adição de um novo endereço da pessoa passada pelo id&nbsp;
+Exemplo payload de envio:&nbsp;
 {
   "logradouro":"Rua Tal n°3 bairro EsseDai",
   "cep":"12345678",
@@ -28,17 +28,15 @@ Exemplo payload de envio:
   "cidade":"Sumiu"
 }
 
-PUT - "/{id}/enderecoPrincipal" realiza a atualização do endereço principal da pessoa do id fornecido
-Exemplo payload de envio:
+**PUT** - "/{id}/enderecoPrincipal" realiza a atualização do endereço principal da pessoa do id fornecido&nbsp;
+Exemplo payload de envio:&nbsp;
 {
   "cep":"87654321",
   "numero":27
 }
 
-
-PUT - "/{id}" realiza a atualização das informações da pessoa fornecida pelo parametro id
-Exemplo payload de envio:
-
+**PUT** - "/{id}" realiza a atualização das informações da pessoa fornecida pelo parametro id&nbsp;
+Exemplo payload de envio:&nbsp;
 {
   "nome":"Carlos",
   "dataNascimento":"22/02/2002"
