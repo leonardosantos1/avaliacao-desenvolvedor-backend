@@ -1,6 +1,6 @@
 # avaliacao-desenvolvedor-backend
 
-Como rodar a aplicação:
+**Como rodar a aplicação:**</br>
 realizar um clone do repositorio e subir o mesmo em uma IDE de preferencia
 
 
